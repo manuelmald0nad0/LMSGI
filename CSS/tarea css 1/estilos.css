@@ -1,0 +1,32 @@
+.cta-container{
+
+    background-image: url("Hobbiton.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cta-text{
+
+    color: #333;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+
+.cta-button{
+
+    color: white;
+    background-color: #626bb2;
+    border-radius: 10px;
+    border-width: 20px;
+
+}
