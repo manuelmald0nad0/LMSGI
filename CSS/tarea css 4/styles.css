@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#menu-section{
+    background-color: black;
+    color: white;
+}
+
+#menu-section .section-title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0 30px;
+}
+
+#menu-section .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+
+#menu-section .menu-list .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width:calc(83%/3 - 110px);
+}
+
+#menu-section .menu-list .menu-item .menu-image {
+    width: 83%;
+    border-radius: 1;
+}

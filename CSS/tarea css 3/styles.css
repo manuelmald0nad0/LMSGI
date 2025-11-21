@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gallery-section .section-title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0 30px;
+}
+
+#gallery-section .gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+#gallery-section .gallery-list .gallery-item {
+
+    width:calc(100%/3 - 32px);
+}
+
+#gallery-section .gallery-list .gallery-item .gallery-image {
+
+    width: 100%;
+    height: 100%;
+}
+
+

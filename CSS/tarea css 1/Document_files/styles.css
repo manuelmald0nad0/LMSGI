@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+}
+
+nav h1{
+    color:white;
+    padding-left: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: gray;
+   
+}
+
+.nav-list a:hover {
+    color: blue;
+}
