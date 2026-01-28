@@ -1,0 +1,18 @@
+*{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1px;
+
+}
+
+.nav a {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2px;
+}
+
+.nav a:hover {
+    color: blue;
+}

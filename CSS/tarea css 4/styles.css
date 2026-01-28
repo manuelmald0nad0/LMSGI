@@ -35,5 +35,6 @@
 
 #menu-section .menu-list .menu-item .menu-image {
     width: 83%;
+    aspect-ratio: 1;
     border-radius: 1;
 }

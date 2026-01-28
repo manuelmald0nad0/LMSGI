@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+
+nav{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+    
+}
+
+.logo{
+    font-size: 1.6em;
+}
+
+ul, li{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+nav a{
+     list-style-type: none;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.cta-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+    padding-top: 110px;
+    background-color: #e9ecef;
+}
+
+.cta-container h1{
+    font-size: 2.2em;
+}
+
+.cta-container p{
+    width: 550px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+    
+}
+
+.services-container{
+    display: flex;
+    text-align:center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 34px, 0;
+    background-color: #f1f3f5;
+}
+
+.services-container div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    padding: 20px;
+  
+}
+
+.contact-container label{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
+.contact-container button{
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-container button:hover{
+    background-color: #343a40;
+}
+
+footer{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f3f5;
+}
+
+footer h3, small{
+    font-weight: bold;
+}
+
+footer a{
+    font-size: 2em;
+    text-decoration: none;
+}
