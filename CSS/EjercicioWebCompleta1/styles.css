@@ -1,39 +1,40 @@
-*{
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #343a40;
 }
 
-nav{
-  display: flex ;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-    
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
 }
 
-.logo{
+.logo {
     font-size: 1.6em;
 }
 
-ul, li{
+ul,
+li {
     display: flex;
     flex-direction: row;
     padding: 10px;
 }
 
-nav a{
-     list-style-type: none;
+nav a {
+    list-style-type: none;
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     font-weight: bold;
 }
 
-.cta-container{
+.cta-container {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -44,28 +45,28 @@ nav a:hover{
     background-color: #e9ecef;
 }
 
-.cta-container h1{
+.cta-container h1 {
     font-size: 2.2em;
 }
 
-.cta-container p{
+.cta-container p {
     width: 550px;
     font-weight: bold;
     font-size: 1.2em;
     margin: 0;
-    
+
 }
 
-.services-container{
+.services-container {
     display: flex;
-    text-align:center;
+    text-align: center;
     justify-content: space-between;
     gap: 10px;
     padding: 34px, 0;
     background-color: #f1f3f5;
 }
 
-.services-container div{
+.services-container div {
     width: 30%;
     display: flex;
     justify-content: center;
@@ -75,34 +76,34 @@ nav a:hover{
     padding-bottom: 10px;
 }
 
-.contact-container{
+.contact-container {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     background-color: #f8f9fa;
     padding: 20px;
-  
+
 }
 
-.contact-container label{
+.contact-container label {
     display: grid;
     grid-template-columns: 1fr;
     padding: 10px;
 }
 
-.contact-container button{
+.contact-container button {
     background-color: #007bff;
     color: white;
 }
 
-.contact-container button:hover{
+.contact-container button:hover {
     background-color: #343a40;
 }
 
-footer{
+footer {
     display: flex;
-    text-align:center;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -110,11 +111,30 @@ footer{
     background-color: #f1f3f5;
 }
 
-footer h3, small{
+footer h3,
+small {
     font-weight: bold;
 }
 
-footer a{
+footer a {
     font-size: 2em;
     text-decoration: none;
+}
+
+@media (max-width:800px) {
+    nav ul{
+        display: none;
+    }
+
+    nav_button{
+        display: block;
+    }
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-container div {
+        width: 100%;
+    }
 }

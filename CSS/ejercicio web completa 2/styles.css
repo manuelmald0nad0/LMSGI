@@ -31,7 +31,7 @@ nav ul {
     gap: 1.5rem;
 }
 
- nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: var(--background-light);
     transition: color 0.25s;
@@ -100,17 +100,19 @@ nav ul li a:hover {
 
 .cta-container h1 {
     font-size: 3rem;
-    color:slategray ;
+    color: slategray;
     text-shadow: 8px 4px 6px var(--hover-light);
 }
 
-footer { 
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     background-color: var(--dark-blue);
     color: white;
     padding: 2rem;
+    gap: 2rem;
 }
 
 footer a {
@@ -124,19 +126,26 @@ footer a:hover {
     cursor: pointer;
 }
 
+.footer-copy{
+    background-color: var(--primary-blue);
+}
+
 .footer-menu {
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
 .footer-menu div h3 {
     margin-bottom: 0.5rem;
     color: var(--background-light);
+    padding: 10px 10px 10px 10px;
 }
 
 .footer-menu div a {
     display: flex;
     margin-top: 0.3rem;
+    
 }
 
 @media (max-width: 768px) {
